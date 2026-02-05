@@ -217,7 +217,7 @@ if st.session_state.current_page == "register":
         roll = st.text_input("Roll Number", key="reg_roll")
 
     with col2:
-        orgs = ["BASM4","BASM2","MAPA2","MAPA4","BASM6","BASM3"]
+        orgs = ["BASM1","BASM2","BASM3","BASM4","BASM5","BASM6","BASM7","DIPS","PGDIPS","MAPA2","MAPA4"]
         org = st.selectbox("Program", orgs, key="reg_org")
 
         users = pd.read_csv(USERS_DB)
